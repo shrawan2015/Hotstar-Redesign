@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/myDownload"
+            android:icon="@drawable/downloading"
+            android:iconTint="@color/bottomtab_item_disabled"
+            android:title="My Downloads" />
+        <item
+            android:id="@+id/mywatchlist"
+            android:icon="@drawable/wishlist"
+            android:title="My Watchlist" />
+    </group>
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/action_home"
+            android:title="Premium" />
+        <item
+            android:id="@+id/action_profile"
+            android:title="Channels" />
+        <item
+            android:id="@+id/icon_group"
+            android:title="Languages" />
+        <item
+            android:id="@+id/icon_group22"
+            android:title="Generes" />
+    </group>
+    <group android:id="@+id/grp3">
+        <item
+            android:id="@+id/help"
+            android:title="Help" />
+        <item
+            android:id="@+id/termsofuse"
+            android:title="Terms of use" />
+        <item
+            android:id="@+id/privacy"
+            android:title="Privacy Policy" />
+    </group>
+</menu>
+

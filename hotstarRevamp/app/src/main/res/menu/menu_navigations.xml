@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/action_home"
+    android:title="@string/text_home"
+    android:icon="@drawable/ic_home" />
+<item android:id="@+id/action_tv"
+    android:title="TV"
+    android:icon="@drawable/tvs"
+    android:enabled="true"
+    />
+
+<item android:id="@+id/action_movie"
+    android:title="Movie"
+    android:enabled="true"
+
+    android:icon="@drawable/movie" />
+
+<item android:id="@+id/action_sports"
+    android:title="Sports"
+    android:enabled="true"
+
+    android:icon="@drawable/sports" />
+
+<item android:id="@+id/action_news"
+    android:title="News"
+    android:icon="@drawable/news" />
+</menu>
